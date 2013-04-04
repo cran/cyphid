@@ -15,12 +15,12 @@ This data set provides displacement data during gum chewing. Motion capture was 
   ..$ : NULL
   ..$ : chr [1:2] "vecY" "vecY.1"
 }
-\details{
+%\details{
 %%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
+%}
+%\source{
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
+%}
 \references{
 Gerstner, G. E., & Parekh, V. V. (1997). Evidence of Sex-specific Differences in Masticatory Jaw Movement Patterns. Journal of Dental Research, 76(3), 796-806.
 }

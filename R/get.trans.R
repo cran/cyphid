@@ -10,7 +10,7 @@ function(dat){
 		accfd <- deriv.fd(fd,2)
 		acc <- eval.fd(samples, accfd)
 		frames <- seq(1,length(dat))
-		minindex <- msExtrema(acc)$index.min
+    minindex <- get.peaks(-acc, 3)
 		minframes <- frames[minindex]
 		mindat <- acc[minindex]
 		transmin <- which.min(mindat)

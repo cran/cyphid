@@ -22,9 +22,9 @@ A matrix of frame numbers used to force a sequence to break at predetermed locat
 The frame limit for which no two cycle breaks can occur.
 }
 }
-\details{
+%%\details{
 %%  ~~ If necessary, more details than the description above ~~
-}
+%%}
 \value{
 This function returns 8 objects.
 
@@ -38,21 +38,21 @@ This function returns 8 objects.
 \item{SOFO.cycle }{see close.cycle}
 
 }
-\references{
+%%\references{
 %% Reference to paper describing the algorithm.
-}
-\author{
+%%}
+%%\author{
 %%  ~~who you are~~
-}
-\note{
+%%}
+%%\note{
 %%  ~~further notes~~
-}
+%%}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
+%%\seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+%%}
 \examples{
 # Run primary function for dividing sequences into cycles and cycles into phases
 JawBreaks40 <- get.all.breaks(jaw, window=40)
